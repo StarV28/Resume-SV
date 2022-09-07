@@ -375,10 +375,15 @@ body {
 .sidebar__link {
   margin-bottom: 7%;
 }
+.link {
+    display: flex;
+    flex-direction: column
+}
 
 .link a {
   line-height: 1rem;
   color: #747474;
+  padding-bottom: 5px;
 }
 @media (max-width: 767px) {
   .link a {
